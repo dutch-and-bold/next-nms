@@ -19,7 +19,7 @@ Not yet available.
 
 ## Support
 
-Please [open an issue](https://github.com/dutch-and-bold/next-nms/new) for support.
+Please [open an issue](https://github.com/dutch-and-bold/next-nms/issues/new) for support.
 
 ## Contributing
 
