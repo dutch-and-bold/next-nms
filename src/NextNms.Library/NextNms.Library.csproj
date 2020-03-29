@@ -2,11 +2,17 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
+        <RootNamespace>NextNms.Libraries</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Lextm.SharpSnmpLib" Version="12.0.0" />
       <PackageReference Include="MediatR" Version="8.0.1" />
       <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\NextNms.Core\NextNms.Core.csproj" />
     </ItemGroup>
 
 </Project>
